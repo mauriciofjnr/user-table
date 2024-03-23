@@ -1,0 +1,22 @@
+.user-table {
+    width: 400px;
+    margin: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.user-table td, thead th {
+    border: 1px solid; black
+    padding: 10px 5px;
+    min-width: 120px;
+}
+
+
+.user-table th {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
